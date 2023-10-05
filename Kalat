@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>random</title>
+</head>
+<body>
+  
+ 
+    status: <progress min="0" max"100" value="50">
+  </progress>
+  
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="10" fill="yellow" />
+</svg>
+<figure>
+  <img src="https://thepracticaldev.s3.amazonaws.com/i/g84et7kjgp2phal89140.jpg" alt="Swat Kats" style="width:100%">
+  <figcaption>Fig.1 - SWAT Kats</figcaption>
+</figure>
+
+<p contenteditable="true">This is an editable paragraph.</p>
+
+<input type="text" list="planets">
+<datalist id="planets">
+    <option value="Mercury"></option>
+    <option value="Venus"></option>
+    <option value="Earth"></option>
+    <option value="Mars"></option>
+    <option value="Jupiter"></option>
+    <option value="Saturn"></option>
+    <option value="Uranus"></option>
+    <option value="Neptune"></option>
+</datalist>
+
+
+
+
+<p>
+<p>I'm Lawson Ezekiel, a software developer who has more development experience in frontend building responsive website sites using these web technologies like Javascript, Vue Js, HTML and CSS, Bootstrap Tailwind CSS.</p>
+</p>
+<details>
+
+  <summary>Click to read more about me</summary>
+
+  <p>I love sharing how to use the latest technology tools to solve problems and my technical experience through an article.</p>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html
