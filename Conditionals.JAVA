@@ -20,5 +20,21 @@ import java.util.Scanner;
     	
     }	  	  	
   
+  // -------------------------------------------------
+  System.out.println("--------------------------------------");
+  System.out.print("Enter the temperature: ");	
+  int temp = scan.nextInt();
+  
+   if(temp >= 36) {
+     if(temp >= 46) { 
+     	System.out.println("Hot!");
+     }else{
+     	System.out.println("Warm!");
+     }
+     
+    }else{
+        System.out.println("Cold!");
+   
     }
-}
+    }
+ }
