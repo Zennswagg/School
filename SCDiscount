@@ -1,0 +1,54 @@
+import java.util.Scanner;
+ 
+public class SCDiscount {
+    
+    public static void main(String[] args) {
+    	Scanner in = new Scanner(System.in);
+    	
+    	String productName;
+    	double productPrice;
+    	int quantity;
+    	double totalAmount;
+    	char isSC;
+    	double discountAmount;
+    	final double DISCOUNTRATE = 0.2;
+    	double payment;
+    	double change;
+    	
+    	System.out.print("Enter Product name: ");
+    	productName = in.nextLine();
+    	
+    	System.out.print("Enter Product Price: ");
+    	productPrice = in.nextDouble();
+    	
+        System.out.print("Enter quantity: ");	
+    	quantity = in.nextInt();
+    	
+    	System.out.printf("You are buying %d pieces(s) of %s  at Php %.2f each.%n", quantity, productName, productPrice);
+    	
+    	
+    totalAmount = productPrice * quantity ;
+       System.out.printf("Total amount due Php %.2f %n ", totalAmount);
+       
+       System.out.print("Are you a Senior Citizen?:[Y/N]: ");
+       	isSC = in.next().charAt(0);
+       	
+       	if(isSC == 'Y' || isSC == 'y'){
+       		discountAmount = totalAmount * DISCOUNTRATE;
+       		totalAmount -= discountAmount;
+       		System.out.printf("Discount Amount:Php %.2f %n ", discountAmount);
+       		System.out.printf("New Total Amount Due:Php %.2f %n ", totalAmount);	
+       	}
+       	
+       	
+       System.out.print("Enter Payment: ");
+    	payment = in.nextDouble();
+    	
+       change = payment - totalAmount;
+       
+       System.out.printf("Change:Php %.2f %n ", change);	
+       	
+       	
+       	
+    }
+}
