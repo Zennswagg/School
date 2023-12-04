@@ -1,16 +1,21 @@
 body{
-    background-color: pink;
+    background-color: black
 }
 
 .body{
     float: right;
     margin-left: 100px;
     margin-top: 100px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: white;
+   
 }
 
 
 .header{
-    color: blue;
+    color: white;
 }
 
 
@@ -19,7 +24,6 @@ li{
     list-style-type: none;
     float: right;
     margin: 0 15px;
-    border: 1px solid;
     border-radius: 50px;
     padding: 5px;
 }
@@ -34,8 +38,16 @@ li:hover{
 p{
     font-size: 20px;
     width: 40%;
+   font-family:'Times New Roman', Times, serif
+
+   
 }
 
 h1{
     margin: 5px 0 ;
+    font-weight: bold;
+    font-size: 80px;
+}
+.pogi{
+    color: red;
 }
